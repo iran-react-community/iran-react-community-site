@@ -1,0 +1,33 @@
+{
+  "name": "iran-react-community",
+  "private": true,
+  "description": "Iran react community",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "deploy:github": "npm run build &&  node ./scripts/deploy-github",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  },
+  "dependencies": {
+    "gatsby": "^2.15.16",
+    "@material-ui/core": "latest",
+    "react-helmet": "latest",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "gatsby-plugin-material-ui": "latest",
+    "gatsby-plugin-react-helmet": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iran-react-community/iran-react-community-site"
+  }
+}
